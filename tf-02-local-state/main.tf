@@ -19,7 +19,7 @@ provider "aws" {
 # 2. Define the ec2 instance resource: use the aws_instance resource block
 #to define your ec2 instance
 
-resource "aws_instance" "app_server" {
+resource "aws_instance" "terraform_demo" {
     ami           = "ami-830c94e3"    #choose a valid AMI ID for your region
     instance_type = "t2.micro"        #choose an appropriate instance
 
